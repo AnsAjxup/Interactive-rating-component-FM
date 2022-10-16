@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    /* Primary Colors */
+    --orange-btn-font: hsl(25, 97%, 53%);
+    /* Neutral Colors */
+    --white-font: hsl(0, 0%, 100%);
+    --lightGrey--font: hsl(217, 12%, 63%);
+    --mediumGrey-backgroundRating: hsl(216, 12%, 54%);
+    --darkBlue-backgroundCard: hsl(213, 19%, 18%);
+    --veryDarkBlue-backgroundBody: hsl(216, 12%, 8%);
+    /* Typography */
+    --overpass-fontFamily: 'Overpass', sans-serif;
+    --overpass-weightRegular: 400;
+    --overpass-weightBold: 700;
+    --overpass-sizeParagraph: 1.5rem;
+    --overpass-sizeTitle: 2.4rem;
+    --overpass-sizeNumber: 2rem;
+}
+html{
+    font-size: 62.5%;
+    font-family: var(--overpass-fontFamily);
+}
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
