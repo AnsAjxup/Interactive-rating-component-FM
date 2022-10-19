@@ -18,7 +18,7 @@
     --overpass-weightRegular: 400;
     --overpass-weightBold: 700;
     --overpass-sizeParagraph: 1.5rem;
-    --overpass-sizeTitle: 2.4rem;
+    --overpass-sizeTitle: 2.8rem;
     --overpass-sizeNumber: 1.6rem;
 }
 html{
@@ -42,13 +42,14 @@ body{
     margin: auto;
 }
 .img-container{
-    width: 4rem;
-    height: 4rem;
+    width: 4.5rem;
+    height: 4.5rem;
     background-color: var(--mediumGrey-backgroundRating);
     border-radius: 50%;
     display: flex;
 }
 .img-star{
+    width: 1.5rem;
     margin: auto;
 }
 .question{
@@ -61,6 +62,7 @@ body{
     font-size: var(--overpass-sizeParagraph);
     font-weight: var(--overpass-weightRegular);
     color: var(--lightGrey--font);
+    line-height: 2.2rem;
 }
 .options-container{
     width: 100%;
@@ -71,9 +73,6 @@ body{
 .rating-option{
     width: 4.5rem;
     height: 4.5rem;
-    /* background-color: var(--mediumGrey-backgroundRating);
-    border-radius: 50%;
-    display: flex; */
     position: relative;
 }
 .rating-option__input{
@@ -118,6 +117,43 @@ body{
     color: var(--orange-btn-font);
     background-color: var(--white-font);
 }
+.thank-you-card{
+    width: clamp(35rem, 90%, 40rem);
+    background-color: var(--darkBlue-backgroundCard);
+    border-radius: 2rem;
+    padding: 3.5rem 2.5rem;
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+.thank-you-card__img{
+    width: 16.2rem;
+}
+.selected{
+    width: 19rem;
+    margin: 2.5rem auto;
+    padding: 0.8rem 0 0.5rem;
+    background-color: var(--mediumGrey-backgroundRating);
+    border-radius: 25px;
+}
+.selected__paragraph{
+    font-size: var(--overpass-sizeParagraph);
+    font-weight: var(--overpass-weightRegular);
+    color: var(--orange-btn-font);
+}
+.thank-you-card__title{
+    font-size: var(--overpass-sizeTitle);
+    font-weight: var(--overpass-weightBold);
+    color: var(--white-font);
+}
+.thank-you-card__paragraph{
+    font-size: var(--overpass-sizeParagraph);
+    font-weight: var(--overpass-weightRegular);
+    color: var(--lightGrey--font);
+    line-height: 2.2rem;
+    margin-top: 1rem;
+}
+
 
 
 

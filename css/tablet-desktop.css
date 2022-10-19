@@ -1,0 +1,19 @@
+.rating-card{
+    padding: 3rem;
+    border-radius: 3rem;
+}
+.options-container{
+    justify-content: space-between;
+    margin: 3rem 0;
+}
+.rating-option{
+    width: 5rem;
+    height: 5rem;
+}
+.btn-submit{
+    height: 5rem;
+}
+.thank-you-card{
+    border-radius: 3rem;
+    padding: 3.5rem 3rem;
+}
